@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_drinks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.work.caferoyale.menu_drinks"
+    android:background="@android:color/darker_gray">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/drink"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textColor="#e64a19"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="@string/price"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="70dp"
+                    android:textColor="#e64a19"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="--------------------------"/>
+                <TextView
+                    android:text="--------------------------"/>
+            </TableRow>
+            <TableRow >
+                <TextView
+
+                    android:layout_marginLeft="10dp"
+                    android:text="Cafe Latte  "
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+
+                    android:text="2.75$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow >
+                <TextView
+
+                    android:layout_marginLeft="10dp"
+                    android:text="Cafe Vanilla Latte"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+
+
+                    android:text="3.25$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Cafe Mocka"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="3.25$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Cafe White Mocka"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="1.95$ "
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Cafe Americano"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="3.35$ "
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Cappuccino "
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="2.75$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Espresso  "
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="1.5$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Tea Latte   "
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="2.80$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Hot Choclate  "
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="2.50$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Hot Vanilla"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text=" 2.50$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

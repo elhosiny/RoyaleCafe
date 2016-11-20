@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_others"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.work.caferoyale.menu_others"
+    android:background="@android:color/darker_gray">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/other"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textColor="#e64a19"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="@string/price"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="70dp"
+                    android:textColor="#e64a19"
+                    android:textSize="25dp"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="--------------------------"/>
+                <TextView
+                    android:text="--------------------------"/>
+            </TableRow>
+            <TableRow >
+                <TextView
+
+                    android:layout_marginLeft="10dp"
+                    android:text="Ice Cream"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+
+                    android:text="1.25$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow >
+                <TextView
+
+                    android:layout_marginLeft="10dp"
+                    android:text="Ice Cream Mega"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+
+
+                    android:text="2.25$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Ice Cream Royale"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="3.25$"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="Shisha"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:text="2.95$ "
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Cafe Royale</string>
+    <string name="app">Cafe Royale</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="register">Register</string>
+    <string name="bestdrinks">Best Drinks In The City</string>
+    <string name="order">Order Now</string>
+    <string name="menu">Menu</string>
+    <string name="offer">Today Offer</string>
+    <string name="settings">Settings</string>
+    <string name="contactus">Contact Us</string>
+    <string name="location">Locations</string>
+    <string name="aboutus">About Us</string>
+    <string name="services">Services</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+
+    <string name="changelanguage">Change Language :</string>
+    <string name="drinks">Drinks</string>
+    <string name="meals">Meals</string>
+    <string name="drink">Drink</string>
+    <string name="price">Price</string>
+    <string name="meal">Meal</string>
+    <string name="vieworder">View Order</string>
+    <string name="ordernow">Order Now</string>
+    <string name="others">Others</string>
+    <string name="pleasechoose">Please Choose Your Order From The Menu :</string>
+    <string name="viewmyorder">View My Order</string>
+    <string name="changemyorder">Change My Order</string>
+    <string name="communicate">Communicate</string>
+    <string name="title_activity_location_map">Map</string>
+    <string name="contact">" We Are Here To Answer Any Question You May Have About Us . Reach Out To Us And We'll Respond As Sonn As We Can ." </string>
+<string name="email">"EMAIL :"</string>
+    <string name="tele">Telephone :</string>
+    <string name="other">Other</string>
+    <string name="we">"We Have 50 Years Experience In Serving You Since We Opened Our First Branch .We Have The Best Drinks In The Town . We Hope That Cover All Your Needs ."</string>
+    <string name="discount">Order Via Our Mobile App And Get 15% Discount .</string>
+    <string name="cafe">Cafe Royale : </string>
+    <string name="team">"Cafe Royale Team ,"</string>
+<string-array name="vieworder">
+        <item>"Your Phone : "</item>
+        <item>"Drink : "</item>
+        <item>"meal : "</item>
+        <item>"Others : "</item>
+    </string-array>
+
+</resources>

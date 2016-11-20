@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/order"
+            android:icon="@drawable/order"
+            android:title="@string/order" />
+        <item
+            android:id="@+id/menu"
+            android:icon="@drawable/menu"
+            android:title="@string/menu" />
+        <item
+            android:id="@+id/offer"
+            android:icon="@drawable/offer2"
+            android:title="@string/offer" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/location"
+                android:icon="@drawable/loc"
+                android:title="@string/location" />
+            <item
+                android:id="@+id/contactus"
+                android:icon="@drawable/contactus"
+                android:title="@string/contactus" />
+
+            <item
+                android:id="@+id/aboutus"
+                android:icon="@drawable/aboutsu2"
+                android:title="@string/aboutus" />
+        </menu>
+    </item>
+
+</menu>

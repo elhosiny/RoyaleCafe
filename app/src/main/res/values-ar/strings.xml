@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app">كافيه رويال</string>
+
+    <string name="name"> الاسم</string>
+    <string name="phone">الهاتف</string>
+    <string name="register">تسجيل</string>
+    <string name="bestdrinks">Best Drinks In The City</string>
+    <string name="order">اطلب الان</string>
+    <string name="menu">القائمة</string>
+    <string name="offer">عرض اليوم</string>
+    <string name="settings">الاعدادات</string>
+    <string name="contactus">تواصل معنا</string>
+    <string name="location">موقعنا</string>
+    <string name="aboutus">نحن</string>
+    <string name="services">الخدمات</string>
+
+    <string name="arabic">العربية</string>
+    <string name="english">الانجليزية</string>
+
+    <string name="drinks">المشروبات</string>
+    <string name="meals">الوجبات</string>
+    <string name="drink">المشروب</string>
+    <string name="price">السعر</string>
+    <string name="meal">الوجبة</string>
+
+    <string name="vieworder">عرض الطلب</string>
+    <string name="ordernow">اطلب الان</string>
+    <string name="others">اخر</string>
+    <string name="pleasechoose">قم باختيارك من القائمة</string>
+    <string name="viewmyorder">عرض طلبي</string>
+    <string name="changemyorder">تغيير طلبي</string>
+    <string name="communicate">اتصل بنا</string>
+    <string name="other"> اخر </string>
+<string name="changelanguage"> تغيير اللغة :</string>
+    <string name="discount">اطلب من خلال تطبيق رويال كافيه و احصل علي خصم 15% .</string>
+    <string name="contact">" نحن هنا لنرد علي اسئلتكم. تواصلوا معنا و سوف نقوم بالرد عليكم باقصي سرعة ممكنه" </string>
+    <string name="email">"بريد الكتروني :"</string>
+    <string name="tele">تليفون :</string>
+    <string name="we">"لدينا خبرة خمسون عام في خدمتكم منذ افتتاح اةل فرع لنا. نمتلك افضل مشروبات في المدينة . نأمل اني نغطي كافة احتياجاتكم ."</string>
+    <string name="cafe">كافيه رويال :</string>
+    <string name="team">"فريق عمل رويال كافيه ."</string>
+    <string-array name="vieworder">
+        <item>"رقم هاتفك : "</item>
+        <item>"المشروب : "</item>
+        <item>"الوجبة : "</item>
+        <item>"اخر : "</item>
+    </string-array>
+
+
+</resources>

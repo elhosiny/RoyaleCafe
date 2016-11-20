@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.work.caferoyale.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@android:color/darker_gray">
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:text="@string/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/register"
+        android:layout_alignEnd="@+id/phone"
+        android:layout_alignStart="@+id/phone"
+        android:background="@color/colorAccent"
+        android:onClick="Register" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/front"
+        android:layout_marginBottom="58dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_above="@+id/name"
+        android:layout_alignParentStart="true">
+
+
+    </ImageView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/phone"
+        android:hint="@string/phone"
+        android:layout_above="@+id/register"
+        android:layout_alignStart="@+id/name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:ems="10"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/name"
+        android:layout_above="@+id/phone"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
